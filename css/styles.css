@@ -18,23 +18,31 @@
 
 .list {
     list-style: none;
+}
 
+.link.button {
+    color: #ffffff;
+    background-color: #2196F3;
 }
 /* добавить стиль без подчекривания  для .link {} */
 
 
 /* Navbar (header) color styling */
 
-.site-logo-main .logo-part1 {
+.site-logo.main .logo-part1 {
     color: #2196F3;
 }
 
-.site-logo-main .logo-part2 {
+.site-logo.main .logo-part2 {
     color: #212121;
 }
 
 .site-nav .link {
     color: #212121;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
 }
 
 .site-contacts .link {
@@ -57,10 +65,6 @@
 }
 .hero-title {
     color: #ffffff;
-}
-.hero-link-buton {
-    color: #ffffff;
-    background-color: #2196F3;
 }
 
 /*Section "Advantages" color styling*/
@@ -122,11 +126,11 @@
 }
 
 /*Footer color styling*/
-.site-logo-secondary .logo-part1 {
+.site-logo.secondary .logo-part1 {
     color: #2196F3;
 }
 
-.site-logo-secondary .logo-part2 {
+.site-logo.secondary .logo-part2 {
     color: #ffffff;
 }
 
@@ -141,8 +145,4 @@
 }
 .email-input {
     color:rgba(255, 255, 255, 0.6);
-}
-.signup-button {
-    color: #ffffff;
-    background-color: #2196F3 ;
 }
