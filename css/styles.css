@@ -1,9 +1,41 @@
 /* main text color #212121 
     secondary color #757575 
     link hover color #2196F3
-    accent color "lonk-Button"  */
+    accent color "link-button"  #2196F3 
+    background color
+    -main #ffffff
+    -secondary #F5F4FA
+    
+    
+    */
 
+/* 
 
-body {
-    color: #2196F3 ;
+*/
+.page {
+    color:;
+    background-color: #ffffff;
+}
+
+.list {
+    list-style: none;
+
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:  #2196F3;
+}
+
+.site-contacts .link {
+    color:#757575 ;
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color:#2196F3 ;
 }
