@@ -9,9 +9,7 @@
     
     */
 
-/* 
-
-*/
+/* Main page color styling*/
 .page {
     color:;
     background-color: #ffffff;
@@ -22,20 +20,29 @@
 
 }
 
+/* Header color styling */
+
 .site-nav .link {
     color: #212121;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color:  #2196F3;
 }
 
 .site-contacts .link {
     color:#757575 ;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus,
 .site-contacts .link:hover,
 .site-contacts .link:focus {
-    color:#2196F3 ;
+    color:  #2196F3;
 }
+
+/*Hero color styling*/
+
+.hero {
+    background-color: rgb(177, 177, 177);
+}
+.hero-title {
+    color: #ffffff;
+}
+/*hero link-button*/
