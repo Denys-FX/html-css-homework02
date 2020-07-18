@@ -11,7 +11,9 @@
         <!--Navbar-->
         <nav>
             <a href="./">
-                <img src="./images/logo.svg" alt="studio logo">
+               <span class="site-logo-main">
+                   <span class="logo-part1"><b>Web </b></span><span class="logo-part2"><b>Studio</b></span>
+               </span> 
             </a>
             <!--main navigation-->
             <ul class="site-nav list">
@@ -28,12 +30,12 @@
             <!--contacts links-->
             <ul class="site-contacts list">
                 <li>
-                    <img src="./images/mail-pic.svg" alt="mail-icon">
-                    <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link" href="mailto:info@devstudio.com"><img src="./images/mail-pic.svg" alt="mail-icon"></a>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <img src="./images/phone-pic.svg" alt="phone-icon">
-                    <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link" href="tel:+380961111111"><img src="./images/phone-pic.svg" alt="phone-icon"></a>
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </nav>
@@ -185,66 +187,70 @@
         </section>
         <!--Сonstant clients-->
         <section>
-            <h2>Постоянные клиенты</h2>
+            <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="company-list list">
                 <li>
-                    <a href="#" aria-label="Link to Company1">Company1</a>
+                    <a class="link" href="#" aria-label="Link to Company1">Company1</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Link to Company2">Company2</a>
+                    <a  class="link" href="#" aria-label="Link to Company2">Company2</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Link to Company3">Company3</a>
+                    <a  class="link" href="#" aria-label="Link to Company3">Company3</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Link to Company4">Company4</a>
+                    <a  class="link" href="#" aria-label="Link to Company4">Company4</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Link to Company5">Company5</a>
+                    <a  class="link" href="#" aria-label="Link to Company5">Company5</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Link to Company6">Company6</a>
+                    <a  class="link" href="#" aria-label="Link to Company6">Company6</a>
                 </li>
             </ul>
         </section>
     </main>
    
     <!--Footer-->
-    <footer>
+    <footer class="section-footer">
         <!--Address-->
-        <section>
+        <section class="section-address">
             <a href="./">
-                <img src="./images/logo.svg" alt="studio logo">
-            </a>
+                <span class="site-logo-secondary">
+                    <span class="logo-part1"> <b>Web </b></span><span class="logo-part2"><b>Studio</b></span>
+                </span> 
+             </a>
             <address>
-                г. Киев, пр-т Леси Украинки, 26 <br>
-                <a href="mailto:info@example.com">info@example.com</a><br>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <span class="address-text">г. Киев, пр-т Леси Украинки, 26</span><br>
+                <a class="link" href="mailto:info@example.com">info@example.com</a><br>
+                <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
         </section>
         <!--Join!-->
-        <section>
-            <p><b>ПРИСОЕДИНЯЙТЕСЬ</b></p>
+        <section class="section-join">
+            <p class="join-text"><b>Присоединяйтесь</b></p>
             <ul class="soscial-list list">
                 <li>
-                    <a href="https://www.instagram.com/" aria-label="Link to Instagram">Instagram</a>
+                    <a class="link" href="https://www.instagram.com/" aria-label="Link to Instagram">Instagram</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/" aria-label="Link to Twitter">Twitter</a>
+                    <a class="link" href="https://twitter.com/" aria-label="Link to Twitter">Twitter</a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/" aria-label="Link to Facebook">Facebook</a>
+                    <a class="link" href="https://www.facebook.com/" aria-label="Link to Facebook">Facebook</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/" aria-label="Link to Linkedin">LinkedIn</a>                    
+                    <a class="link" href="https://www.linkedin.com/" aria-label="Link to Linkedin">LinkedIn</a>                    
                 </li>
             </ul>
         </section>
         <!--Sign up-->
-        <section>
-            <p><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></p>
+        <section class="section-signup">
+            <p class="signup-text"><b>Подпишитесь на рассылку</b></p>
             <!--Input field-->
-            <!--"Sign up" button-->
+            <span class="email-input">E-mail</span>
+            <!--"Sign up on telegram" button-->
+            <span class="signup-button">Подписаться</span>
         </section>
     </footer>
 </body>

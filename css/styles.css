@@ -1,12 +1,15 @@
-/* main text color #212121 
-    secondary color #757575 
-    link hover color #2196F3
-    accent color "link-button"  #2196F3 
-    background color
-    -main #ffffff
-    -secondary #F5F4FA
-
+/*  1.text color: main #212121, secondary #757575 
+    2.link hover/focus color #2196F3
+    3.accent color "link-button"  #2196F3 
+    4.background color: main #ffffff, secondary #F5F4FA, footer #2F303A
     */
+/*
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #000000;
+    --accent-color:#2196F3
+}
+*/
 
 /* Main page color styling*/
 .page {
@@ -20,7 +23,16 @@
 /* добавить стиль без подчекривания  для .link {} */
 
 
-/* Navbar color styling */
+/* Navbar (header) color styling */
+
+.site-logo-main .logo-part1 {
+    color: #2196F3;
+}
+
+.site-logo-main .logo-part2 {
+    color: #212121;
+}
+
 .site-nav .link {
     color: #212121;
 }
@@ -34,14 +46,14 @@
     color:#2196F3;
 }
 
-site-contacts .link:hover,
+.site-contacts .link:hover,
 .site-contacts .link:focus {
     color:#2196F3;
 }
 
 /*Section "Hero" color styling*/
 .hero {
-    background-color: rgba(177, 177, 177, 0.7);
+    background-color: rgba(126, 119, 119, 0.7);
 }
 .hero-title {
     color: #ffffff;
@@ -67,11 +79,15 @@ site-contacts .link:hover,
     color: #212121;
 }
 
-/*Section "Projects" color styling*/
+/*Section "Projects", "Footer-links-headers" color styling*/
 .projects-list .link {
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
 }
+.join-text, .signup-text {
+    color: #ffffff;
+}
+
 
 /*Section "Team" styling*/
 .section-team {
@@ -94,4 +110,39 @@ site-contacts .link:hover,
 .soscial-list .link:hover,
 .soscial-list .link:focus {
     color: #2196F3;
+}
+
+/*Section "Clients" color styling*/
+.company-list .link {
+    color:#AFB1B8;
+}
+.company-list .link:hover,
+.company-list .link:focus {
+    color: #2196F3;
+}
+
+/*Footer color styling*/
+.site-logo-secondary .logo-part1 {
+    color: #2196F3;
+}
+
+.site-logo-secondary .logo-part2 {
+    color: #ffffff;
+}
+
+.section-footer {
+    background-color: #2F303A ;
+}
+.address-text {
+    color: #ffffff;
+}
+.section-address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.email-input {
+    color:rgba(255, 255, 255, 0.6);
+}
+.signup-button {
+    color: #ffffff;
+    background-color: #2196F3 ;
 }
