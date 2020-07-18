@@ -5,13 +5,11 @@
     background color
     -main #ffffff
     -secondary #F5F4FA
-    
-    
+
     */
 
 /* Main page color styling*/
 .page {
-    color:;
     background-color: #ffffff;
 }
 
@@ -19,9 +17,10 @@
     list-style: none;
 
 }
+/* добавить стиль без подчекривания  для .link {} */
 
-/* Header color styling */
 
+/* Navbar color styling */
 .site-nav .link {
     color: #212121;
 }
@@ -31,18 +30,68 @@
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus,
-.site-contacts .link:hover,
-.site-contacts .link:focus {
-    color:  #2196F3;
+.site-nav .link:focus {
+    color:#2196F3;
 }
 
-/*Hero color styling*/
+site-contacts .link:hover,
+.site-contacts .link:focus {
+    color:#2196F3;
+}
 
+/*Section "Hero" color styling*/
 .hero {
-    background-color: rgb(177, 177, 177);
+    background-color: rgba(177, 177, 177, 0.7);
 }
 .hero-title {
     color: #ffffff;
 }
-/*hero link-button*/
+.hero-link-buton {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+/*Section "Advantages" color styling*/
+.advantages-image {
+    background-color:#F5F4FA ;
+}
+.advantages-subtitle {
+    color: #212121;
+}
+.advantages-text {
+    color: #757575;
+}
+
+/*Headers H2 for sections "Projects" and "Team"*/
+.section-title {
+    color: #212121;
+}
+
+/*Section "Projects" color styling*/
+.projects-list .link {
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+/*Section "Team" styling*/
+.section-team {
+    background-color: #F5F4FA;
+}
+    background-color: ;
+}
+.team-member-title {
+    color:#212121;
+}
+
+.team-department {
+    color: #757575;
+}
+
+.soscial-list .link {
+    color:#AFB1B8;
+}
+
+.soscial-list .link:hover,
+.soscial-list .link:focus {
+    color: #2196F3;
+}
