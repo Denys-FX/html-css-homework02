@@ -29,11 +29,11 @@ Set predefined colors
     background-color: #2196F3;
 }
 
-.link.nav-button {
+.nav-button {
     color: #212121;
     background-color: #F5F4FA;
 }
-.link.nav-button.current {
+.nav-button.current {
     color: #ffffff;
     background-color: #2196F3;
 }
