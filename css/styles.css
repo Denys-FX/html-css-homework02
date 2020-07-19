@@ -4,6 +4,7 @@
     4.background color: main #ffffff, secondary #F5F4FA, footer #2F303A
     */
 /*
+Set predefined colors
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #000000;
@@ -19,12 +20,33 @@
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 
 .link.button {
     color: #ffffff;
     background-color: #2196F3;
 }
-/* добавить стиль без подчекривания  для .link {} */
+
+.link.nav-button {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.link.nav-button.current {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color:#2196F3;
+}
 
 
 /* Navbar (header) color styling */
@@ -49,22 +71,13 @@
     color:#757575 ;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color:#2196F3;
-}
-
-.site-contacts .link:hover,
-.site-contacts .link:focus {
-    color:#2196F3;
-}
-
 /*Section "Hero" color styling*/
 .hero {
     background-color: rgba(126, 119, 119, 0.7);
 }
 .hero-title {
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 /*Section "Advantages" color styling*/
@@ -73,6 +86,7 @@
 }
 .advantages-subtitle {
     color: #212121;
+    text-transform: uppercase;
 }
 .advantages-text {
     color: #757575;
@@ -87,9 +101,7 @@
 .projects-list .link {
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
-}
-.join-text, .signup-text {
-    color: #ffffff;
+    text-transform: uppercase;
 }
 
 
@@ -126,6 +138,10 @@
 }
 
 /*Footer color styling*/
+.section-footer {
+    background-color: #2F303A ;
+}
+
 .site-logo.secondary .logo-part1 {
     color: #2196F3;
 }
@@ -134,12 +150,15 @@
     color: #ffffff;
 }
 
-.section-footer {
-    background-color: #2F303A ;
-}
 .address-text {
     color: #ffffff;
 }
+
+.join-text, .signup-text {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 .section-address .link {
     color: rgba(255, 255, 255, 0.6);
 }
