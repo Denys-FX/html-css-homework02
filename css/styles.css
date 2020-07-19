@@ -12,14 +12,33 @@ Set predefined colors
 }
 */
 
-/* Main page color styling*/
+/*Page main font and color styling*/
 .page {
     background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+h1
+h2
+h3
+h4
+h5
+h6{
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -29,6 +48,7 @@ Set predefined colors
     background-color: #2196F3;
 }
 
+/*buttons on Portfolio page*/
 .nav-button {
     color: #212121;
     background-color: #F5F4FA;
@@ -47,9 +67,7 @@ Set predefined colors
 .site-contacts .link:focus {
     color:#2196F3;
 }
-
-
-/* Navbar (header) color styling */
+/*Navbar (header) font and color styling */
 
 .site-logo.main .logo-part1 {
     color: #2196F3;
@@ -61,6 +79,11 @@ Set predefined colors
 
 .site-nav .link {
     color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -69,54 +92,114 @@ Set predefined colors
 
 .site-contacts .link {
     color:#757575 ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
 }
 
-/*Section "Hero" color styling*/
+/*Section "Hero" font and color styling*/
 .hero {
-    background-color: rgba(126, 119, 119, 0.7);
+    background-color: rgba(47, 48, 58, 0.8);;
 }
 .hero-title {
     color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.hero-title .link.button.hero {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.06em;
+}
 
-/*Section "Advantages" color styling*/
+
+/*Section "Advantages" font and color styling*/
 .advantages-image {
     background-color:#F5F4FA ;
 }
+
 .advantages-subtitle {
     color: #212121;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
+
 .advantages-text {
     color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+
 }
 
-/*Headers H2 for sections "Projects" and "Team"*/
+/*Section "Our Ptojects"*/
+/*Headers styling for "Our Ptojects","Our team", "Our Clients" */
 .section-title {
     color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-/*Section "Projects", "Footer-links-headers" color styling*/
 .projects-list .link {
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
-    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
-
 
 /*Section "Team" styling*/
 .section-team {
     background-color: #F5F4FA;
 }
-    background-color: ;
-}
+
 .team-member-title {
     color:#212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.266;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-department {
     color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .soscial-list .link {
@@ -128,7 +211,7 @@ Set predefined colors
     color: #2196F3;
 }
 
-/*Section "Clients" color styling*/
+/*Section "Clients" styling*/
 .company-list .link {
     color:#AFB1B8;
 }
@@ -137,7 +220,7 @@ Set predefined colors
     color: #2196F3;
 }
 
-/*Footer color styling*/
+/*Footer styling*/
 .section-footer {
     background-color: #2F303A ;
 }
@@ -152,15 +235,32 @@ Set predefined colors
 
 .address-text {
     color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .join-text, .signup-text {
     color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .section-address .link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
 .email-input {
     color:rgba(255, 255, 255, 0.6);
