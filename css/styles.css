@@ -47,17 +47,6 @@ h6{
     background-color: #2196F3;
 }
 
-/*buttons on Portfolio page*/
-.nav-button {
-    color: #212121;
-    background-color: #F5F4FA;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-}
 .nav-button.current {
     color: #ffffff;
     background-color: #2196F3;
@@ -72,7 +61,7 @@ h6{
 .site-contacts .link:focus {
     color:#2196F3;
 }
-/*Navbar (header) font and color styling */
+/*Navbar (header)styling */
 
 .site-logo.main .logo-part1 {
     color: #2196F3;
@@ -102,7 +91,7 @@ h6{
     letter-spacing: 0.02em
 }
 
-/*Section "Hero" font and color styling*/
+/*Section "Hero" styling*/
 .hero {
     background-color: rgba(47, 48, 58, 0.8);
     text-align: center;
@@ -124,8 +113,7 @@ h6{
     letter-spacing: 0.06em;
 }
 
-
-/*Section "Advantages" font and color styling*/
+/*Section "Advantages" styling*/
 .advantages-image {
     background-color:#F5F4FA ;
 }
@@ -137,7 +125,6 @@ h6{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
 
 .advantages-text {
@@ -209,6 +196,10 @@ h6{
 }
 
 /*Section "Clients" styling*/
+.company-list {
+    text-align: center;
+}
+
 .company-list .link {
     color:#AFB1B8;
 }
@@ -244,7 +235,6 @@ h6{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
 
 .section-address {
@@ -263,4 +253,46 @@ h6{
 
 .email-input {
     color:rgba(255, 255, 255, 0.6);
+}
+
+/*Portfolio page styling*/
+/*buttons on Portfolio page*/
+.nav-button {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.portfolio-nav {
+    text-align: center;
+}
+
+.portfolio-title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-type {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-text {
+    background: rgba(33, 150, 243, 0.9);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.section-portfolio {
+    text-align: center;
 }
