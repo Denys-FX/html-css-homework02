@@ -1,22 +1,26 @@
-/*  1.text color: main #212121, secondary #757575 
-    2.link hover/focus color #2196F3
-    3.accent color "link-button"  #2196F3 
-    4.background color: main #ffffff, secondary #F5F4FA, footer #2F303A
-    */
-/*
-Set predefined colors
 :root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #000000;
-    --accent-color:#2196F3
+    --text-color-main: #212121;
+    --text-color-secondary:#757575;
+    --text-color-accent: #2196F3;
+    --text-color-accent2: #ffffff;
+    --text-color-footer: rgba(255, 255, 255, 0.6);;
+    --background-color-main: #ffffff;
+    --background-color-secondary: #F5F4FA;
+    --background-color-accent: #2196F3;
+    --background-color-accent2: #2F303A;
+    --background-color-transparent1: rgba(47, 48, 58, 0.8);
+    --background-color-transparent2: rgba(33, 150, 243, 0.9);
+    --background-color-footer: #2F303A;
+    --link-color-inactive: #AFB1B8;
+    --link-color-active: #2196F3;
 }
-*/
 
 /*Page main font and color styling*/
 .page {
-    background-color: #ffffff;
+    background-color: var(--background-color-main);
     font-family: 'Roboto', sans-serif;
 }
+
 
 .site-logo {
     font-family: 'Raleway', sans-serif;
@@ -24,14 +28,6 @@ Set predefined colors
     font-weight: bold;
     line-height: 1.2;
     letter-spacing: 0.03em;
-}
-h1
-h2
-h3
-h4
-h5
-h6{
-    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -43,36 +39,31 @@ h6{
 }
 
 .link.button {
-    color: #ffffff;
-    background-color: #2196F3;
-}
-
-.nav-button.current {
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--text-color-accent2);
+    background-color: var(--background-color-accent);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3;
+    color: var( --text-color-accent);
 }
 
 .site-contacts .link:hover,
 .site-contacts .link:focus {
-    color:#2196F3;
+    color:var( --text-color-accent);
 }
 /*Navbar (header)styling */
 
 .site-logo.main .logo-part1 {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 
 .site-logo.main .logo-part2 {
-    color: #212121;
+    color: var(--text-color-secondary);
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--text-color-main);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -80,11 +71,11 @@ h6{
 }
 
 .site-nav .link.current {
-    color: #2196F3;
+    color: var(--text-color-accent);
 }
 
 .site-contacts .link {
-    color:#757575 ;
+    color: var(--text-color-secondary);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -93,11 +84,12 @@ h6{
 
 /*Section "Hero" styling*/
 .hero {
+    /*temp color*/
     background-color: rgba(47, 48, 58, 0.8);
     text-align: center;
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--text-color-accent2);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
@@ -115,11 +107,11 @@ h6{
 
 /*Section "Advantages" styling*/
 .advantages-image {
-    background-color:#F5F4FA ;
+    background-color: var(--background-color-secondary);
 }
 
 .advantages-subtitle {
-    color: #212121;
+    color: var(--text-color-main);
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -128,8 +120,7 @@ h6{
 }
 
 .advantages-text {
-    color: #757575;
-    font-weight: normal;
+    color: var(--text-color-secondary);
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -138,7 +129,7 @@ h6{
 /*Section "Our Ptojects"*/
 /*Headers styling for "Our Ptojects","Our team", "Our Clients" */
 .section-title {
-    color: #212121;
+    color: var(--text-color-main);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.166;
@@ -147,8 +138,8 @@ h6{
 }
 
 .projects-list .link {
-    color: #ffffff;
-    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--text-color-accent2);
+    background-color: var(--background-color-transparent);
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -161,7 +152,7 @@ h6{
 
 /*Section "Team" styling*/
 .section-team {
-    background-color: #F5F4FA;
+    background-color: var(--background-color-secondary);
 }
 
 .team-item {
@@ -170,7 +161,7 @@ h6{
 }
 
 .team-member-title {
-    color:#212121;
+    color:var(--text-color-main);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.266;
@@ -179,7 +170,7 @@ h6{
 }
 
 .team-department {
-    color: #757575;
+    color:var(--text-color-secondary);
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -187,12 +178,12 @@ h6{
 }
 
 .social-list .link {
-    color:#AFB1B8;
+    color: var(--link-color-inactive);
 }
 
 .social-list .link:hover,
 .social-list .link:focus {
-    color: #2196F3;
+    color: var(--link-color-active);
 }
 
 /*Section "Clients" styling*/
@@ -201,35 +192,35 @@ h6{
 }
 
 .company-list .link {
-    color:#AFB1B8;
+    color: var(--link-color-inactive);
 }
 .company-list .link:hover,
 .company-list .link:focus {
-    color: #2196F3;
+    color: var(--link-color-active);
 }
 
 /*Footer styling*/
 .section-footer {
-    background-color: #2F303A ;
+    background-color: var(--background-color-footer) ;
 }
 
 .site-logo.secondary .logo-part1 {
-    color: #2196F3;
+    color:var(--link-color-active);
 }
 
 .site-logo.secondary .logo-part2 {
-    color: #ffffff;
+    color: var(--text-color-accent2);
 }
 
 .address-text {
-    color: #ffffff;
+    color: var(--text-color-accent2);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .join-text, .signup-text {
-    color: #ffffff;
+    color: var(--text-color-accent2);
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -247,18 +238,18 @@ h6{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-color-footer);
 
 }
 
 .email-input {
-    color:rgba(255, 255, 255, 0.6);
+    color:var(--text-color-footer);
 }
 
 /*Portfolio page styling*/
 /*buttons on Portfolio page*/
 .nav-button {
-    color: #212121;
+    color: var(--text-color-main);
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
@@ -266,12 +257,18 @@ h6{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+.nav-button.current {
+    color: var(--text-color-button);
+    background-color: var(--background-color-accent);
+}
+
 .portfolio-nav {
     text-align: center;
 }
 
 .portfolio-title {
-    color: #212121;
+    color: var(--text-color-main);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -279,18 +276,18 @@ h6{
 }
 
 .portfolio-type {
+    color: var(--text-color-secondary);
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
 }
 
 .portfolio-text {
-    background: rgba(33, 150, 243, 0.9);
+    color: var(--text-color-accent2);
+    background: var(--background-color-transparent2);
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
 }
 
 .section-portfolio {
