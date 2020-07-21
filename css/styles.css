@@ -21,7 +21,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .site-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -248,6 +247,13 @@
 
 /*Portfolio page styling*/
 /*buttons on Portfolio page*/
+
+.nav-button:hover,
+.nav-button:focus {
+    background-color: var(--background-color-accent);
+    color: var(--text-color-accent2);
+}
+
 .nav-button {
     color: var(--text-color-main);
     background-color: #F5F4FA;
@@ -259,7 +265,7 @@
 }
 
 .nav-button.current {
-    color: var(--text-color-button);
+    color: var(--text-color-accent2);
     background-color: var(--background-color-accent);
 }
 
